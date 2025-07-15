@@ -1,0 +1,104 @@
+body {
+    font-family: "Itim", cursive;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.A{
+        text-align: center;
+        font-style: normal;
+        font-size: 30px;
+        margin-top: 80px;
+        color: black;
+        text-decoration: none;
+        padding: 0;
+        transition: color 1s ease-in-out;
+}
+.A:hover {
+    color: rgb(1, 168, 29);
+    transition-delay: 0s;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-top: 100px;
+    border-radius: 20px;    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+}
+.B {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: -5px;
+    text-decoration: none;
+    
+}
+table{
+    width: 1400px;
+    font-size: 25px;
+    overflow-x: auto;
+    text-align: center;
+}
+th{
+    background-color: rgb(180, 247, 148);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+}
+td{
+    background-color: beige;
+}
+tbody {
+    display: block;
+    max-height: 450px; 
+    overflow-y: auto;
+}
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+::-webkit-scrollbar-track
+    {
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+::-webkit-scrollbar {
+    width: 1px;
+    
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5a6268;
+    border-radius: 10px;
+}
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.b1 ,.b2{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    transition: color 1s ease-in-out;
+}
+.b1:hover {
+    color: rgb(178, 209, 3);
+    transition-delay: 0s;
+}
+.b2:hover {
+    color: rgb(211, 0, 0);
+    transition-delay: 0s;
+}

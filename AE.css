@@ -1,0 +1,98 @@
+body {
+    font-family: "Itim", cursive;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-top: 100px;
+    border-radius: 20px;    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.B{
+    width: 80%;
+    padding: 8px;
+    margin: 8px auto;
+    resize: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    display: block;
+    margin-top: 20px;
+    transition: color 1s ease-in-out;
+}
+.B:hover {
+    color: rgb(1, 168, 29);
+    background-color: rgb(200, 240, 207);
+    transition-delay: 0s;
+}
+input[type="color"]{
+    height: 40px;
+    margin: 8px auto; 
+    border: 1px solid #000000; 
+    border-radius: 20px;
+    margin-top: 15px; 
+    padding: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+td{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+select{
+    width: 200px;
+    padding: 8px;
+    margin: 8px auto;
+    resize: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    display: block;
+    margin-top: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Itim", cursive;
+    transition: color 1s ease-in-out;
+}
+.A{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 80px;
+}
+a:hover {
+    color: rgb(1, 168, 29);
+    transition-delay: 0s;
+}
+.C{
+    color: green;
+    font-size: 40px;
+    z-index: 1000;
+    position: fixed; 
+    margin-top: -80px;          
+    left: 50%;       
+    transform: translateX(-50%);
+}
